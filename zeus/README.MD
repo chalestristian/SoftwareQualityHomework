@@ -31,11 +31,11 @@ Uma empresa possui dez funcionários com as seguintes características: código,
 
 **( D )** Calcule o valor do auxílio alimentação recebido pelo funcionário de acordo com seu salário inicial, conforme a tabela a seguir:
 
-|SALÁRIO INICIAL|AUXÍLIO ALIMENTAÇÃO|
-|-----|------|-------------------|
-|ATÉ R$ 800,00    |15% DO SALÁRIO INICIAL| 
-|ENTRE R$ 800,00 E R$ 1500,00    |10% DO SALÁRIO INICIAL|
-|ACIMA DE R$ 1500,00   |N     5% DO SALÁRIO INICIAL|
+|SALÁRIO INICIAL               |  AUXÍLIO ALIMENTAÇÃO |
+|------------------------------|----------------------|
+|ATÉ R$ 800,00                 |15% DO SALÁRIO INICIAL| 
+|ENTRE R$ 800,00 E R$ 1500,00  |10% DO SALÁRIO INICIAL|
+|ACIMA DE R$ 1500,00           |5% DO SALÁRIO INICIAL |
 |
 
 ---  
