@@ -114,7 +114,6 @@ public class FolhaPagamento {
         }
         f.setAuxilio(f.getSalarioInicial() * aux);
     }
-
     private void calcularSalarioFinal(Funcionarios f) {
         f.setSalarioFinal(f.getSalarioInicial() + f.getAuxilio());
     }

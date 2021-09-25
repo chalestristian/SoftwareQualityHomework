@@ -3,10 +3,8 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-
             Scanner input = new Scanner(System.in);
             int opcao;
-
             while (true) {
                 exibeMenu();
                 opcao = input.nextInt();
@@ -25,7 +23,7 @@ public class Main {
                         System.out.println("OPCAO INVALIDA!!!!");
                 }
             }
-        }
+    }
 
         public static void exibeMenu() {
             System.out.println("-------------------");
@@ -40,7 +38,6 @@ public class Main {
                 scanner.nextLine();
             }
         }
-
     }
 
 

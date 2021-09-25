@@ -1,7 +1,5 @@
 package First;
 
-import org.w3c.dom.ls.LSOutput;
-
 public class Funcionarios {
 
     //Estes são os atributos
@@ -81,5 +79,4 @@ public class Funcionarios {
                 + "ValorHora: " + valorHoraTrabalhada + "\n" + "SalarioInicial: " + salarioInicial + "\n"
                 + "Auxilio: " + auxilio + "\n" + "SalarioFinal: " + salarioFinal + "\n";
     }
-
 }
