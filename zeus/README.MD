@@ -21,7 +21,7 @@ Uma empresa possui dez funcionários com as seguintes características: código,
 |G    |M OU V|14% DO SALÁRIO BASE|
 |O    |N     |12% DO SALÁRIO BASE|
 |O    |M OU V|10% DO SALÁRIO BASE|
-|
+
 ---
 • Adote o valor de R$ 300,00 para o salário base.
 
@@ -36,7 +36,7 @@ Uma empresa possui dez funcionários com as seguintes características: código,
 |ATÉ R$ 800,00                 |15% DO SALÁRIO INICIAL| 
 |ENTRE R$ 800,00 E R$ 1500,00  |10% DO SALÁRIO INICIAL|
 |ACIMA DE R$ 1500,00           |5% DO SALÁRIO INICIAL |
-|
+
 
 ---  
 
