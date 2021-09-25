@@ -1,5 +1,5 @@
 package First;
 
-public enum cargo {
+public enum Cargo {
     G,O;
 }

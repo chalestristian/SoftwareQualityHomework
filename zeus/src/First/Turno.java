@@ -1,6 +1,6 @@
 package First;
 
-public enum turno {
+public enum Turno {
     M, V, N;
 
 }
