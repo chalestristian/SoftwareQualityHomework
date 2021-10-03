@@ -1,7 +1,7 @@
 # **What is this case? 🤔** 
 
 ## 📝 **CASE:**
-### 👨‍💻 Make an algorithm in Java that shows on screen all even numbers between a range of two numbers selected by the user.
+### 👨‍💻 Make an algorithm in Java that shows on screen the area and perimeter of a rectangle. The numbers should be selected by the user.
 
 ---
 
