@@ -1,5 +1,9 @@
-# Atividade Avaliativa
+# **What is this case? 🤔** 
 
-### Elabore um algoritmo em java que apresente na tela todos os números pares presentes em um intervalo solicitado para o usuário.
+## 📝 **CASE:**
+### 👨‍💻 Make an algorithm in Java that shows on screen all even numbers between a range of two numbers selected by the user.
 
 ---
+
+To understand it better, go to: [let me know](https://github.com/chalestristian/SoftwareQualityHomework)
+

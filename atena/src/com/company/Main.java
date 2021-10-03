@@ -9,28 +9,32 @@ public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        int num1, num2;
-        List<Integer> pares = new ArrayList<>();
+        System.out.println("************************************************************");
+        System.out.println("### Finding even numbers between a range of two numbers ###");
+        System.out.println("************************************************************");
+
+        int numberOne, numberTwo;
+        List<Integer> even = new ArrayList<>();
 
         do {
-            System.out.print("Insira o número inicial do intervalo: ");
-            num1 = input.nextInt();
+            System.out.print("First number: ");
+            numberOne = input.nextInt();
 
-            System.out.print("Insira o número final do intervalo: ");
-            num2 = input.nextInt();
+            System.out.print("Second number: ");
+            numberTwo = input.nextInt(); 
 
-            if (num1 > num2) {
+            if (numberOne > numberTwo) {
                 System.out.println("=========================================================");
-                System.out.println("O numero final não pode ser menor do que o numero inicial");
+                System.out.println("The first number cannot be less than the second. Try again!");
                 System.out.println("=========================================================");
             }
-        } while (num1 > num2);
+        } while (numberOne > numberTwo);
 
-        while (num1 <= num2){
-            if (num1 % 2 == 0) {pares.add(num1);}
-            num1 = num1 + 1;
+        while (numberOne <= numberTwo){
+            if (numberOne % 2 == 0) {even.add(numberOne);}
+            numberOne = numberOne + 1;
         }
 
-        System.out.println("Os números pares contidos no intervado são: " + pares);
+        System.out.println("The even numbers between this range are: " + even);
     }
 }
