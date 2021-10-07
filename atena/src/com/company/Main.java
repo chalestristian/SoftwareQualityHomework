@@ -7,34 +7,21 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
 
-        System.out.println("************************************************************");
-        System.out.println("### Finding even numbers between a range of two numbers ###");
-        System.out.println("************************************************************");
-
-        int numberOne, numberTwo;
-        List<Integer> even = new ArrayList<>();
-
-        do {
-            System.out.print("First number: ");
-            numberOne = input.nextInt();
-
-            System.out.print("Second number: ");
-            numberTwo = input.nextInt(); 
-
-            if (numberOne > numberTwo) {
-                System.out.println("=========================================================");
-                System.out.println("The first number cannot be less than the second. Try again!");
-                System.out.println("=========================================================");
+        Scanner scanner = new Scanner(System.in);
+        //Array numeros com 5 posições.
+        int[] numeros = new int[5];
+        // O maior numero do array é definido como sendo o primeiro numero inserido.
+        int maior = numeros[0];
+        for (int i = 0; i < numeros.length; i++) {
+            System.out.print("Insira um numero: ");
+            numeros[i] = scanner.nextInt();
+            // Aqui o será comparado todos os numeros inseridos e salvando o maior.
+            if (numeros[i] > maior) {
+                maior = numeros[i];
             }
-        } while (numberOne > numberTwo);
-
-        while (numberOne <= numberTwo){
-            if (numberOne % 2 == 0) {even.add(numberOne);}
-            numberOne = numberOne + 1;
         }
-
-        System.out.println("The even numbers between this range are: " + even);
+        System.out.println("O maior numero digitado é: " + maior);
+        scanner.close();
     }
 }
